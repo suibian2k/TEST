@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DEBUG	server.c	16;"	d	file:
+DEBUG	trs.c	2;"	d	file:
+DEBUG	use.c	2;"	d	file:
+IMAGE_DIR	main.h	12;"	d
+MAXLINE	main.h	5;"	d
+MAXNAME	main.h	6;"	d
+MAXSTR	main.h	7;"	d
+SRV_IP	main.h	9;"	d
+SRV_PORT	main.h	10;"	d
+STR_DIR	main.h	14;"	d
+STR_INSERT	main.h	16;"	d
+STR_LEN	main.h	15;"	d
+TRS_END	main.h	18;"	d
+_MAIN_H_	main.h	3;"	d
+_SQLITE_ERROR_H_	sqlite_error.h	3;"	d
+_TRS_ERROR_H_	trs_error.h	3;"	d
+_TRS_H_	trs.h	3;"	d
+_USE_H_	use.h	3;"	d
+clear_dir	use.c	/^int clear_dir(const char *dir)$/;"	f
+db_str	trs.c	/^static char *db_str[MAXSTR][2];$/;"	v	file:
+getDir	use.c	/^int getDir(char (*fs)[256])$/;"	f
+main	server.c	/^int main(int argc, const char *argv[])$/;"	f
+my_itoa	use.c	/^char *my_itoa(int num, char *str, int n)$/;"	f
+my_sqlite3_close	sqlite_error.c	/^int my_sqlite3_close(sqlite3 *ppDb)$/;"	f
+my_sqlite3_exec	sqlite_error.c	/^int my_sqlite3_exec(sqlite3* ppDb, const char *sql, sqlite3_callback sc, void * e, char **errmsg)$/;"	f
+my_sqlite3_open	sqlite_error.c	/^int my_sqlite3_open(char *filename,  sqlite3 **ppDb)$/;"	f
+sendImg	trs.c	/^int sendImg(int sockfd, struct sockaddr_in cliaddr, const char * id)$/;"	f
+sendStr	trs.c	/^int sendStr(int sockfd, struct sockaddr_in cliaddr, const char * sd)$/;"	f
+strCall	trs.c	/^int strCall(void *p, int row, char *value[], char *name[])$/;"	f
+str_count	trs.c	/^static char str_count;$/;"	v	file:
+trs_accept	trs_error.c	/^int trs_accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen)$/;"	f
+trs_bind	trs_error.c	/^int trs_bind(int sockfd, const struct sockaddr *addr,socklen_t addrlen)$/;"	f
+trs_close	trs_error.c	/^int trs_close(int fd)$/;"	f
+trs_connect	trs_error.c	/^int trs_connect(int sockfd, const struct sockaddr *addr,socklen_t addrlen)$/;"	f
+trs_error_exit	trs_error.c	/^void trs_error_exit(const char *s)$/;"	f
+trs_listen	trs_error.c	/^int trs_listen(int sockfd, int backlog)$/;"	f
+trs_open	trs_error.c	/^int trs_open(const char *pathname, int flags)$/;"	f
+trs_openm	trs_error.c	/^int trs_openm(const char *pathname, int flags, mode_t mode)$/;"	f
+trs_read	trs_error.c	/^ssize_t trs_read(int fd, void *buf, size_t count)$/;"	f
+trs_recvfrom	trs_error.c	/^ssize_t trs_recvfrom(int sockfd, void *buf, size_t len, int flags,$/;"	f
+trs_sendto	trs_error.c	/^ssize_t trs_sendto(int sockfd, void *buf, size_t len, int flags,$/;"	f
+trs_socket	trs_error.c	/^int trs_socket(int domain, int type, int protocol)$/;"	f
+trs_write	trs_error.c	/^ssize_t trs_write(int fd, void *buf, size_t count)$/;"	f

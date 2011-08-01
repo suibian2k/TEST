@@ -1,0 +1,106 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLACK	main.h	16;"	d
+BLUE	main.h	14;"	d
+BORD	main.h	28;"	d
+BUTTON	main.h	/^}BUTTON, *PBUTTON;$/;"	t	typeref:struct:button
+FALSE	main.h	40;"	d
+FBDEV	main.h	/^}FBDEV, *PFBDEV;$/;"	t	typeref:struct:fbdev
+GREEN	main.h	13;"	d
+JPEG	main.h	/^}JPEG, *PJPEG;$/;"	t	typeref:struct:jpeg
+JPEG_NODE	main.h	/^}JPEG_NODE, *PJPEG_NODE;$/;"	t	typeref:struct:jpeg_node
+LEFT_CLICK	main.h	20;"	d
+MAIN_MODE	main.h	35;"	d
+MEVENT	main.h	/^}MEVENT, *PMEVENT;$/;"	t	typeref:struct:mevent
+MIDDLE_CLICK	main.h	22;"	d
+MOUSE	main.h	/^}MOUSE, *PMOUSE;$/;"	t	typeref:struct:mouse
+MOUSE_POP	main.h	19;"	d
+M_H	main.h	26;"	d
+M_W	main.h	25;"	d
+PBUTTON	main.h	/^}BUTTON, *PBUTTON;$/;"	t	typeref:struct:button
+PFBDEV	main.h	/^}FBDEV, *PFBDEV;$/;"	t	typeref:struct:fbdev
+PJPEG	main.h	/^}JPEG, *PJPEG;$/;"	t	typeref:struct:jpeg
+PJPEG_NODE	main.h	/^}JPEG_NODE, *PJPEG_NODE;$/;"	t	typeref:struct:jpeg_node
+PMEVENT	main.h	/^}MEVENT, *PMEVENT;$/;"	t	typeref:struct:mevent
+PMOUSE	main.h	/^}MOUSE, *PMOUSE;$/;"	t	typeref:struct:mouse
+PSLIDE_MSS	main.h	/^}SLIDE_MSS,*PSLIDE_MSS;$/;"	t	typeref:struct:slide_mss
+READ_MOUSE	main.h	32;"	d
+RED	main.h	12;"	d
+RIGHT_CLICK	main.h	21;"	d
+SLIDE_MODE	main.h	36;"	d
+SLIDE_MSS	main.h	/^}SLIDE_MSS,*PSLIDE_MSS;$/;"	t	typeref:struct:slide_mss
+TRUE	main.h	39;"	d
+T___	main.h	27;"	d
+WHITE	main.h	15;"	d
+X___	main.h	29;"	d
+_MAIN_H_	main.h	2;"	d
+button	main.h	/^    int button;$/;"	m	struct:mevent
+button	main.h	/^typedef struct button$/;"	s
+button_name	main.h	/^    char *button_name;$/;"	m	struct:button
+cursor_pixel	main.h	/^    u32_t *cursor_pixel;$/;"	m	struct:mouse
+dev	main.h	/^    char *dev ;$/;"	m	struct:mouse
+dev	main.h	/^    char *dev;$/;"	m	struct:fbdev
+dx	main.h	/^    int dx;$/;"	m	struct:mevent
+dy	main.h	/^    int dy;$/;"	m	struct:mevent
+dz	main.h	/^    int dz;     \/\/wheel$/;"	m	struct:mevent
+fb	main.h	/^    int fb;$/;"	m	struct:fbdev
+fb_close	fb.c	/^int fb_close(PFBDEV pFbdev)$/;"	f
+fb_draw_pixel	fb.c	/^int fb_draw_pixel(PFBDEV pFbdev, int x, int y, u32_t color)$/;"	f
+fb_fix	main.h	/^    struct fb_fix_screeninfo fb_fix;$/;"	m	struct:fbdev	typeref:struct:fbdev::fb_fix_screeninfo
+fb_get_height	fb.c	/^int fb_get_height(PFBDEV pFbdev)$/;"	f
+fb_get_pixel	fb.c	/^u32_t fb_get_pixel(PFBDEV pFbdev, int x, int y)$/;"	f
+fb_get_width	fb.c	/^int fb_get_width(PFBDEV pFbdev)$/;"	f
+fb_init	fb.c	/^int fb_init(PFBDEV pFbdev, char *dev)$/;"	f
+fb_mem	main.h	/^    unsigned long fb_mem;$/;"	m	struct:fbdev
+fb_mem_offset	main.h	/^    unsigned long fb_mem_offset;$/;"	m	struct:fbdev
+fb_memset	fb.c	/^void fb_memset(void *addr, int c, size_t len)$/;"	f
+fb_var	main.h	/^    struct fb_var_screeninfo fb_var;$/;"	m	struct:fbdev	typeref:struct:fbdev::fb_var_screeninfo
+fbdev	main.h	/^typedef struct fbdev$/;"	s
+fd	main.h	/^    int fd;$/;"	m	struct:mouse
+flag	main.h	/^    int flag;$/;"	m	struct:mevent
+get_disp_depth	fb.c	/^int get_disp_depth(PFBDEV pFbdev)$/;"	f
+h	main.h	/^    int h;$/;"	m	struct:jpeg
+h	main.h	/^    int h;$/;"	m	struct:mouse
+headfile	main.h	/^    JPEG_NODE *headfile;$/;"	m	struct:slide_mss
+jpeg	main.h	/^    PJPEG *jpeg; $/;"	m	struct:jpeg_node
+jpeg	main.h	/^    PJPEG *jpeg;$/;"	m	struct:button
+jpeg	main.h	/^typedef struct jpeg$/;"	s
+jpeg_node	main.h	/^typedef struct jpeg_node$/;"	s
+main	main.c	/^int main(int argc, const char *argv[])$/;"	f
+mevent	main.h	/^typedef struct mevent$/;"	s
+mouse	main.h	/^typedef struct mouse$/;"	s
+mouse_draw	mouse.c	/^int mouse_draw(PMOUSE pMouse, const PFBDEV pFbdev, int x, int y)$/;"	f
+mouse_get_start_x	mouse.c	/^int mouse_get_start_x(PMOUSE pMouse)$/;"	f
+mouse_get_start_y	mouse.c	/^int mouse_get_start_y(PMOUSE pMouse)$/;"	f
+mouse_get_x	mouse.c	/^int mouse_get_x(PMOUSE pMouse, PMEVENT pMevent)$/;"	f
+mouse_get_y	mouse.c	/^int mouse_get_y(PMOUSE pMouse, PMEVENT pMevent)$/;"	f
+mouse_init	mouse.c	/^int mouse_init(PMOUSE pMouse, const char *dev, u32_t *cursor_pixel$/;"	f
+mouse_parse	mouse.c	/^int mouse_parse(PMOUSE pMouse, PMEVENT pMevent)$/;"	f
+mouse_restore	mouse.c	/^int mouse_restore(PMOUSE pMouse, PFBDEV pFbdev, int x, int y)$/;"	f
+mouse_save	mouse.c	/^int mouse_save(PMOUSE pMouse, PFBDEV pFbdev, int x, int y)$/;"	f
+n	main.h	/^    struct jpeg_node *n;$/;"	m	struct:jpeg_node	typeref:struct:jpeg_node::jpeg_node
+now_x	main.h	/^    int now_x;$/;"	m	struct:mouse
+now_y	main.h	/^    int now_y;$/;"	m	struct:mouse
+now_z	main.h	/^    int now_z;$/;"	m	struct:mouse
+p	main.h	/^    struct jpeg_node *p;$/;"	m	struct:jpeg_node	typeref:struct:jpeg_node::jpeg_node
+pfbdev	main.h	/^    PFBDEV pfbdev;$/;"	m	struct:slide_mss
+pjpeg	main.h	/^    u32_t *pjpeg;$/;"	m	struct:jpeg
+s8_t	main.h	/^typedef char            s8_t;$/;"	t
+save_cursor	main.h	/^    u32_t *save_cursor;$/;"	m	struct:mouse
+second	main.h	/^    int second;$/;"	m	struct:slide_mss
+slide_mss	main.h	/^typedef struct slide_mss$/;"	s
+start_x	main.h	/^    int start_x;$/;"	m	struct:mouse
+start_y	main.h	/^    int start_y;$/;"	m	struct:mouse
+start_z	main.h	/^    int start_z;$/;"	m	struct:mouse
+thr_mouse	thr_mouse.c	/^int thr_mouse(const char* dev, PFBDEV pFbdev, PMOUSE pMouse)$/;"	f
+u16_t	main.h	/^typedef unsigned short  u16_t;$/;"	t
+u32_t	main.h	/^typedef unsigned int    u32_t;$/;"	t
+u8_t	main.h	/^typedef unsigned char   u8_t;$/;"	t
+w	main.h	/^    int w;$/;"	m	struct:jpeg
+w	main.h	/^    int w;$/;"	m	struct:mouse
+x	main.h	/^    int x;$/;"	m	struct:button
+y	main.h	/^    int y;$/;"	m	struct:button
