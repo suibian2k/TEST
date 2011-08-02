@@ -37,6 +37,7 @@ int main(int argc, const char *argv[])
         if(mp) 
         {
             print_node(mp);
+            head = delete_list(head, mp);
         }
         else
         {
