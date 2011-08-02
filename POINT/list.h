@@ -12,5 +12,5 @@ PNODE_T insert_list(PNODE_T head, const PNODE_T mp);
 PNODE_T find_list(PNODE_T head ,int age);
 PNODE_T delete_list(PNODE_T head, PNODE_T dp);
 
-//dd
+//dd ff
 #endif
